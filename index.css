@@ -6,6 +6,12 @@
     margin-top: auto;
 }
 
+@media (max-width: 768px) {
+    .contact-section, .contact-form, .github-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
 .contact-form {
 background-color: white;
 border-radius: 5px;
